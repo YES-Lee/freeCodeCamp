@@ -24,3 +24,10 @@ var dynamicProperty = "bark";
  myObject[dynamicProperty] = "woof-woof"; 
 
 ```
+
+使用`Object.assign()`方法
+```javascript
+Object.assign(myObject, {
+  foo: 'value of foo'
+})
+```
